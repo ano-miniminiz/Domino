@@ -10,7 +10,7 @@ public class generation : MonoBehaviour
     public GameObject obj1;
 
     delete script;
-    
+
     void Start()
     {
         parentobject = GameObject.Find("Canvas");
@@ -20,7 +20,7 @@ public class generation : MonoBehaviour
         btn1 = GetComponent<Button>();
         btn2 = GameObject.Find("Button_del");
         script = btn2.GetComponent<delete>();
-        btn1.interactable = false;
+        // btn1.interactable = false;
     }
 
     public void Onclick()
