@@ -13,10 +13,10 @@ public class generation : MonoBehaviour
 
     void Start()
     {
-        parentobject = GameObject.Find("Canvas");
+        parentobject = GameObject.Find("Cubes");
         prefab = (GameObject)Resources.Load("Cube");
-        obj1 = Instantiate(prefab) as GameObject;
-        obj1.transform.SetParent(parentobject.transform, false);
+        // obj1 = Instantiate(prefab) as GameObject;
+        // obj1.transform.SetParent(parentobject.transform, false);
         btn1 = GetComponent<Button>();
         btn2 = GameObject.Find("Button_del");
         script = btn2.GetComponent<delete>();
@@ -26,6 +26,7 @@ public class generation : MonoBehaviour
     public void Onclick()
     {
         btn1.interactable = true;
+        // script.btn2.interactable = true;
         obj1 = Instantiate(prefab) as GameObject;
         obj1.transform.SetParent(parentobject.transform, false);
     }

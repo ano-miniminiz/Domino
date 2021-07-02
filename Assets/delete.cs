@@ -17,8 +17,8 @@ public class delete : MonoBehaviour
 
     public void OnClick()
     {
-        btn2.interactable = false;
-        // Destroy(script.obj1);
+        // btn2.interactable = false;
+        Destroy(script.obj1);
         script.btn1.interactable = true;
     }
 }
