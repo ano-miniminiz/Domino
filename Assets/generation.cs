@@ -17,7 +17,7 @@ public class generation : MonoBehaviour
     void Start()
     {
         parentobject = GameObject.Find("Cubes");
-        prefab = (GameObject)Resources.Load("Cube");
+        prefab = (GameObject)Resources.Load("ketchap");
         // obj1 = Instantiate(prefab) as GameObject;
         // obj1.transform.SetParent(parentobject.transform, false);
         btn1 = GetComponent<Button>();
