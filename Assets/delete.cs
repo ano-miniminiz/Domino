@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class delete : MonoBehaviour
 {
-    public Button btn2;
+
     GameObject btn1;
     generation script;
 
